@@ -1,25 +1,33 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RegEx Celular</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>JS Phone Mask</title>
 </head>
-
 <body>
-
-    <div style="margin: 200px 200px 0 200px;">
-        <h1>Formatando N<sup>o</sup>. de Celular com RegEx</h1>
-        <label for="celular">Celular</label>
-        <input type="text" onkeyup="formatarCelular(event)" minlength="16" maxlength="16" required>
-        <span>
-            <p>Desenvolvido por: <a href="https://github.com/mrbrunelli" target="_blank">Matheus R. Brunelli</a></p>
-        </span>
+    <div id="app">
+        <i class="fab fa-js js"></i>
+        <h1>JS Brazillian Phone Mask</h1>
+        <input type="text" onkeyup="phoneMask(event)" minlength="16" maxlength="16" placeholder="(99) 9 9999-9999" autofocus required>
+        <p>
+            <span>
+                Fork by:
+                <a href="https://github.com/gcairesdev" target="_blank">
+                    Guilherme A. Caires
+                </a>
+            </span>
+            <span>
+                Inicial repository:
+                <a href="https://github.com/mrbrunelli/regexp-celular-javascript" target="_blank">
+                    Matheus R. Brunelli
+                </a>
+            </span>
+        </p>
+        <i class="fab fa-github github"></i>
     </div>
-
-    <script src="celular.js"></script>
-
+    <script src="phoneMask.js"></script>
 </body>
-
 </html>

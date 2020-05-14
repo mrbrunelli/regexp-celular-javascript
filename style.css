@@ -1,0 +1,55 @@
+body {
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #323330;
+    background-color: #F0DB4F;
+}
+
+#app {
+    width: 90vw;
+    height: 90vh;
+
+    margin: auto;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+
+    text-align: center;
+}
+
+.js {
+    font-size: 100pt;
+    opacity: 0.3;
+}
+
+input[type=text]{
+    width: 280px;
+    height: 25px;
+    
+    border: 1px solid #333;
+    border-radius: 10px;
+    
+    font-size: 14pt;
+    text-align: center;
+}
+
+p {
+    margin-top: 50px;
+    font-size: 10pt;
+}
+
+span {
+    display: block;
+    margin: 10px 0;
+}
+
+a {
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+.github {
+    font-size: 22pt;
+}
