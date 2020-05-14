@@ -4,8 +4,11 @@
 > Formato da máscara: (00) 0 0000-0000
 
 [![Code Size][code-size-image]][code-size-url]
+[![Test Now][test-now-image]][test-now-url]
 
-![](capturaTela.png)
+Teste agora: https://gcairesdev.github.io/js-phone-mask/
+
+![](Screenshot.png)
 
 ## Como usar
 
@@ -45,3 +48,5 @@ Por estar usando o padrão internacional de expressões regulares, essa função
 
 [code-size-image]: https://img.shields.io/github/languages/code-size/gcairesdev/js-phone-mask
 [code-size-url]: https://github.com/gcairesdev/js-phone-mask/archive/master.zip
+[test-now-image]: https://img.shields.io/badge/teste%20now-online-%23F0DB4F
+[test-now-url]: https://gcairesdev.github.io/js-phone-mask/
