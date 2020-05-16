@@ -6,7 +6,9 @@
 [![Code Size][code-size-image]][code-size-url]
 [![Test Now][test-now-image]][test-now-url]
 
-Teste agora: https://gcairesdev.github.io/js-phone-mask/
+Teste agora: https://mrbrunelli.github.io/regexp-celular-javascript
+
+> Contributor: [gcairesdev](https://github.com/gcairesdev)
 
 ![](Screenshot.png)
 
@@ -15,7 +17,7 @@ Teste agora: https://gcairesdev.github.io/js-phone-mask/
 1- Clone o repositório
 
 ```sh
-git clone https://github.com/gcairesdev/js-phone-mask
+git clone https://github.com/mrbrunelli/regexp-celular-javascript
 ```
 
 2- Link o arquivo `phoneMask.js` em seu projeto
@@ -24,9 +26,9 @@ git clone https://github.com/gcairesdev/js-phone-mask
 <script src="phoneMask.js">
 ```
 
-3- Adicione a propriedade `onkeydown` chamando a função `phoneMask()`, passando `event` como parâmetro
+3- Adicione a propriedade `onkeyup` chamando a função `phoneMask()`, passando `event` como parâmetro
 ```html
-<input type="text" onkeydown="phoneMask(event)"> 
+<input type="text" onkeyup="phoneMask(event)"> 
 ```
 
 ## Exemplo de uso
@@ -47,6 +49,6 @@ Esta máscara pode ser usado em praticamente todos os formulários de perfil do 
 Por estar usando o padrão internacional de expressões regulares, essa função pode ser convertida facilmente para qualquer linguagem de programação.
 
 [code-size-image]: https://img.shields.io/github/languages/code-size/gcairesdev/js-phone-mask
-[code-size-url]: https://github.com/gcairesdev/js-phone-mask/archive/master.zip
+[code-size-url]: https://github.com/mrbrunelli/regexp-celular-javascript/archive/master.zip
 [test-now-image]: https://img.shields.io/badge/teste%20now-online-%23F0DB4F
-[test-now-url]: https://gcairesdev.github.io/js-phone-mask/
+[test-now-url]: https://mrbrunelli.github.io/regexp-celular-javascript/
